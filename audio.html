@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Audio</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.--><script>var __adobewebfontsappname__="dreamweaver"</script><script src="http://use.edgefonts.net/asap:n4,n7,i4:default;didact-gothic:n4:default.js" type="text/javascript"></script>
+</head>
+
+<body>
+	<header>
+		<h1>Audio en html5</h1>
+	</header>
+<nav>
+		<ul>
+			<li><a href="../indexejercicios.html">Mi primera página</a></li>
+			<li><a href="../tablas.html">Tablas</a></li>
+			<li><a href="../enlacespag.html">Enlaces</a></li>
+			<li><a href="../flexboxpag.html">Flexbox</a></li>
+			<li><a href="video.html">Video</a></li>
+			<li><a href="audio.html">Audio</a></li>
+			<li><a href="../animacion/animaciones.html">Animación</a></li>
+			<li><a href="../formularios/formularios.html">Formularios</a></li>
+			<li><a href="../tipopag.html">Tipo</a></li>
+		</ul>
+	</nav>
+	<main>
+		<section>
+			<h2>Insercion de audio simple</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem aperiam, numquam dolorem adipisci non modi quis asperiores! Nesciunt molestias, iusto!</p>
+			<audio controls>
+				<source src="medios/audios/labrinth-forever.mp3" type"audio/mp3">
+				<source src="" type="audio/ogg">
+				<source src="" type="audio/wav">
+				Your browser does not support the audio tag.
+			</audio>
+		</section>
+		<section>
+			<h2>Insercion de audio con autoreproducción y en silencio</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum beatae sequi iure rem, accusamus dicta recusandae aliquid, ad ea consectetur.</p>
+            <audio controls="controls" muted="muted" autoplay="autoplay" >
+              <source src="medios/audios/labrinth-forever.mp3" type="audio/mp3">
+            </audio>
+		</section>
+		<section>
+			<h2>Insercion de audio ciclica</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est minus temporibus nostrum voluptatibus, expedita non quisquam voluptatem beatae eum repudiandae!</p>
+            <audio controls="controls" autoplay="autoplay" loop="loop" >
+              <source src="medios/audios/labrinth-forever.mp3" type="audio/mp3">
+            </audio>
+		</section>
+		<section>
+			<h2>Insercion de audio de repositorio: ivoox</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id quos ratione, adipisci! Omnis dicta unde, quam aut optio mollitia quod?</p>
+			<iframe id='audio_955380' frameborder='0' allowfullscreen='' scrolling='no' height='200' style='width:100%;' src='https://mx.ivoox.com/es/player_ej_955380_6_1.html'></iframe>
+		</section>
+		<section>
+			<h2>Insercion de audio de repositorio: soundhound</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum qui quidem aliquam pariatur similique neque sint suscipit soluta, cumque ad.</p>
+			<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/103673248&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/ghost-dancer09" title="GhostDancer" target="_blank" style="color: #cccccc; text-decoration: none;">GhostDancer</a> · <a href="https://soundcloud.com/ghost-dancer09/oasis-champagne-supernova" title="Oasis - Champagne Supernova (Live 1999)" target="_blank" style="color: #cccccc; text-decoration: none;">Oasis - Champagne Supernova (Live 1999)</a></div>
+		</section>
+	</main>
+	<footer>
+	  <h5>Elaborado por David E. Oropeza Benitez</h5>
+</footer>
+</body>
+</html>

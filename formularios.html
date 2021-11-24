@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Formularios</title>
+<link href="../audiosact/css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<header>
+		<h1>Formaularios en HTML</h1>
+	</header>
+<nav>
+		<ul>
+			<li><a href="../indexejercicios.html">Mi primera página</a></li>
+			<li><a href="../tablas.html">Tablas</a></li>
+			<li><a href="../enlacespag.html">Enlaces</a></li>
+			<li><a href="../flexboxpag.html">Flexbox</a></li>
+			<li><a href="../audiosact/video.html">Video</a></li>
+			<li><a href="../audiosact/audio.html">Audio</a></li>
+			<li><a href="../animacion/animaciones.html">Animación</a></li>
+			<li><a href="formularios.html">Formularios</a></li>
+			<li><a href="../tipopag.html">Tipo</a></li>
+		</ul>
+	</nav>
+	<main>
+		<section>
+			<h2>Formulario básico</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat doloribus pariatur aliquid itaque nobis tempore eveniet sequi delectus accusantium error.</p>
+			<form action="gracias.html" method="get" target="_self" autocomplete="off">
+				<label>Nombre:</label>
+				<input type="text">
+				<label>Apellidos:</label>
+				<input type="text">
+				<input type="submit" value="Enviar">
+			</form>
+		</section>
+		<section>
+			<h2>Formulario con lista desplegable</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat doloribus pariatur aliquid itaque nobis tempore eveniet sequi delectus accusantium error.</p>
+			<form action="gracias.html" method="post">
+				<label for="nombre">Nombre:</label>
+				<input type="text" id="noombre" name="nombre">
+				<label for="pais">País:</label>
+				<select id="pais" name="pais" size="">
+					<option value="mx">México</option>
+					<option value="es">España</option>
+					<option value="it">Italia</option>
+					<option value="co">Colombia</option>
+					<option value="ar">Argentina</option>
+				</select>
+				<input type="submit" value="Enviar">
+			</form>
+		</section>
+		<section>
+			<h2>Formulario básico</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat doloribus pariatur aliquid itaque nobis tempore eveniet sequi delectus accusantium error.</p>
+			<form action="gracias.html" method="get">
+				<table width="50%" border="0">
+  <tbody>
+    <tr>
+      <td><label for="nombre">Nombre:</label></td>
+      <td><input type="text" id="nombre" name="nombre"></td>
+    </tr>
+    <tr>
+      <td><label for="Correo">Correo electrónico</label></td>
+      <td><input type="email" id="correo" name="correo"></td>
+    </tr>
+    <tr>
+      <td><label for="mensaje">Mensaje</label></td>
+      <td><textarea name="mensaje" rows="5" cols="20">Escribe aquí tu mensaje...</textarea></td>
+    </tr>
+    <tr>
+      <td><input type="submit" value="Enviar"></td>
+    </tr>
+  </tbody>
+</table>				
+			</form>
+		</section>
+		<section>
+			<h2>Formulario utilizando varios tipos de input</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat doloribus pariatur aliquid itaque nobis tempore eveniet sequi delectus accusantium error.</p>
+			<form method="get" action="gracias.html">
+				<label for="name">Nombre</label>
+				<input type="text" id="nombre" name="nombre"><br><br><br>
+				<label for="nacimiento">Fecha de nacimiento</label>
+				<input type="date" id="nacimiento" name="nacimiento"><br><br><br>
+				<label for="genero">Género</label>
+				<input type="radio" id="genero" name="genero" value="femenino"><label>Femenino</label>
+				<input type="radio" id="genero" name="genero" value="masculino">
+				<label>Másculino</label><br><br><br>
+				<label for="musica">Elige de la lista los géneros músicales que más te gusten:</label>
+				<input type="checkbox" id="musica" name="musica" value="pop"><label>Pop</label>
+				<input type="checkbox" id="musica" name="musica" value="rock"><label>Rock</label>
+				<input type="checkbox" id="musica" name="musica" value="jazz"><label>Jazz</label>
+				<input type="checkbox" id="musica" name="musica" value="alternativa"><label>Alternativa</label>
+				<input type="checkbox" id="musica" name="musica" value="blues"><label>Blues</label>
+				<br><br><br>
+				<input type="submit" value="Enviar">
+			</form>
+		</section>
+		<section>
+			<h2>Formulario Ejercicio</h2>
+		      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi nulla nostrum aperiam animi, tenetur architecto repudiandae voluptatum, aliquam vitae incidunt!</p>
+		      <label for="color">Color favorito:</label>
+              <input type="color" name="color" id="color"><br><br>
+			  <label for="time">Time:</label>
+              <input type="time" name="time" id="time"><br><br>
+			  <label for="tel">Tel:</label>
+              <input type="tel" name="tel" id="tel"><br><br>
+              <label for="fileField">File:</label>
+              <input type="file" name="fileField" id="fileField">
+			  <br><br>
+			  <input type="reset" name="reset" id="reset" value="Restablecer">
+		</section>
+		
+	</main>
+	<footer>
+	  <h5>Elaborado por David E. Oropeza Benitez</h5>
+    </footer>
+</body>
+</html>
